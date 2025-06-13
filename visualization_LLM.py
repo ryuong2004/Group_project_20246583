@@ -83,7 +83,7 @@ for name, co2, gdp in zip(country_names_list, co2_values, gdp_values):
 import requests
 import json
 
-API_KEY = "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"  
+API_KEY = "개인의 api key"  
 
 url = "https://openrouter.ai/api/v1/chat/completions"
 headers = {
